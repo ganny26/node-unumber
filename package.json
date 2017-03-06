@@ -1,0 +1,26 @@
+{
+  "name": "node-unumber",
+  "version": "1.0.0",
+  "description": "Unique ramdom id generator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganny26/node-unumber.git"
+  },
+  "keywords": [
+    "cid",
+    "uniqueid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganny26/node-unumber/issues"
+  },
+  "homepage": "https://github.com/ganny26/node-unumber#readme"
+}
