@@ -16,8 +16,8 @@ npm install node-unumber
 
 ```javascript
 // Generate a 5 digit pattern (random)
-const cid = require(c1');
-cid.generatePattern(10,'0')  //6545633436
+const cid = require('c1');
+cid.generatePattern(10,'0');  //6545633436
 cid.generatePattern(20,"a"); //ffeckzhgastisvtzuvcc
 cid.generatePattern(20,"A"); //TZBUJIZNSSSBDSLBXRHI
 
