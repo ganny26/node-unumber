@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ganny26/node-unumber/issues"
   },
-  "homepage": "https://github.com/ganny26/node-unumber#readme"
+  "homepage": "https://github.com/ganny26/node-unumber#readme",
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
 }
