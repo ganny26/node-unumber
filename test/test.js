@@ -6,7 +6,7 @@ describe('Unit Tests All Scenarios', function() {
     it('generating pattern # of length 5', function() {
         expect(cid.generate(5, '#')).to.equal('#####');
     });
-    
+
     it('generating pattern @ of length 10', function() {
         expect(cid.generate(10, '@')).to.equal('@@@@@@@@@@');
     });
@@ -17,5 +17,9 @@ describe('Unit Tests All Scenarios', function() {
 
     it('generate 3 digit random number',function(){
     	 expect(cid.generatePattern(3,'0')).with.lengthOf(3);
+    })
+
+     it('generate 2 digit random number',function(){
+    	 expect(cid.generatePattern(2,'0')).with.lengthOf(2);
     })
 });
